@@ -1,0 +1,44 @@
+@media screen and (max-width:800px) {
+  #logo{
+   justify-content: center;
+   flex-direction: column;
+  }
+  li.contact{
+    border-radius:20px;
+    padding: 5px;
+    background-color: white;
+    color: #1d91d0;
+    transition: .3s all;
+    
+  }
+  li.contact:hover{
+    padding:5px;
+  }
+  a.navbar  {
+    font-size: 14px;
+    margin: 10px;
+
+   }
+   a.navbar:hover{
+    font-size: 17px;
+    
+  }
+  
+  
+  main{
+    flex-direction: column;
+   
+  }
+  img#lima{
+    display: none;
+  }
+
+  input{
+    max-width: 300px;
+  }
+
+  form{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
